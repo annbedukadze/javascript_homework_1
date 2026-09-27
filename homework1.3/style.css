@@ -1,0 +1,146 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("background1.gif");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.card {
+    position: absolute;
+    background: rgba(235, 130, 24, 0.70);
+    border: 1px solid rgba(139, 132, 133, 0.35);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.photo-card {
+    width: 300px;
+    height: 400px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.photo-card img {
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+}
+
+.photo-card h1 {
+    margin: 10px 0 5px;
+    letter-spacing: 5px;
+}
+
+.music {
+    width: 180px;
+    top: 12%;
+    left: 8%;
+
+    transform: rotate(-5deg);
+}
+.movies {
+    width: 190px;
+    top: 15%;
+    right: 8%;
+
+    transform: rotate(4deg);
+}
+.movies::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url("movie.jpg");
+    background-size: cover;
+    background-position: center;
+    top: -80px;
+    right: -50px;
+    transform: rotate(12deg);
+    z-index: -1;
+    border-radius: 10px;
+}
+.poster {
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+.poster2 {
+    width: 180px;
+    height: 240px;
+
+    top: 35%;
+    right: 18%;
+
+    transform: rotate(-8deg);
+}
+.poster3 {
+    width: 160px;
+    height: 190px;
+
+    bottom: 38%;
+    right: 6%;
+
+    transform: rotate(15deg);
+}
+.hobbies {
+    width: 190px;
+    bottom: 4%;
+    left: 15%;
+
+    transform: rotate(18deg);
+}
+.about {
+    width: 400px;
+    bottom: 5%;
+    right: 9%;
+    transform: rotate(-4deg);
+}
+.vinyl {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 4%;
+    left: 12%;
+
+    transform: rotate(-15deg);
+
+    z-index: -1;
+}
+.photo2 {
+    position:absolute;
+    width: 200px;
+    height: 250px;
+    top: 7%;
+    left: 56%;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transform: rotate(10deg);
+}
+.photo3 {
+    position:absolute;
+    width: 200px;
+    height: 250px;
+    bottom: 10%;
+    left: 30%;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transform: rotate(-13deg);
+}
+.friendspics {
+    position:absolute;
+    width: 300px;
+    height: 250px;
+    bottom: 6%;
+    left: 2%;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transform: rotate(-10deg);
+    z-index: -1;
+}
